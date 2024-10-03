@@ -2,7 +2,7 @@
 
 # Hacktoberfest 2024 🌟
 
-Welcome to the **Hacktoberfest 2024** repository! 🎉 Our mission is to clone the official [Hacktoberfest website](https://hacktoberfest.com/) to celebrate open-source contributions and engage developers from all around the globe.
+Welcome to the **Hacktoberfest 2024** repository! 🎉 Our mission is to clone the official [Hacktoberfest website](https://hacktoberfest.com/) using **Tailwind CSS** and **Vite** to celebrate open-source contributions and engage developers from around the globe.
 
 ## 🚀 What is Hacktoberfest?
 
@@ -11,16 +11,20 @@ Hacktoberfest is a month-long celebration of open-source software, where develop
 ## 🛠️ Project Goals
 
 - **Clone the Hacktoberfest Website**: Recreate the functionality and design of the official Hacktoberfest site.
-- **Enhance with New Features**: Add unique features that can improve user experience and engagement.
+- **Utilize Tailwind CSS**: Leverage Tailwind CSS for a responsive and modern design.
+- **Use Vite for Fast Development**: Implement Vite as the build tool for a smooth and efficient development experience.
+- **Enhance with New Features**: Add unique features that improve user experience and engagement.
 - **Foster Community Contributions**: Encourage developers of all skill levels to participate and contribute.
 
 ## 🤝 How to Contribute
 
 1. **Fork the Repository**: Click the fork button to create your own copy of this repository.
 2. **Clone the Repo**: Clone your forked repository to your local machine.
-3. **Make Changes**: Implement features, fix bugs, or improve design as you work on the website.
-4. **Submit a Pull Request**: Once you're satisfied with your changes, submit a pull request with a clear description of what you’ve done.
-5. **Engage with the Community**: Explore other contributions, provide feedback, and collaborate with fellow developers.
+3. **Install Dependencies**: Run `npm install` to install the necessary packages.
+4. **Start Development**: Use `npm run dev` to start the development server with Vite.
+5. **Make Changes**: Implement features, fix bugs, or improve the design using Tailwind CSS.
+6. **Submit a Pull Request**: Once you're satisfied with your changes, submit a pull request with a clear description of what you’ve done.
+7. **Engage with the Community**: Explore other contributions, provide feedback, and collaborate with fellow developers.
 
 ## 📅 Important Dates
 
