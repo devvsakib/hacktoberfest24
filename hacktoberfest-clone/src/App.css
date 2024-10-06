@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* App.css */
+* {
+  box-sizing: border-box; /* Ensure padding and borders are included in width/height calculations */
+}
+
+html,
+body {
+  height: 100%; /* Full height for html and body */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background-color: #50da4c; /* Set page background color */
+}
+header{
+  color: #282727;
+}
+.hack-icon{
+  height: 130px;
+  width: 130px;
+}
+#root {
+  height: 100%; /* Ensure root takes full height */
+  width: 100%; /* Ensure root takes full width */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack children vertically */
+}
+
+.header {
+  flex-shrink: 0; /* Prevent header from shrinking */
+}
+
+.nav-link {
+  color:#282727;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #a1a1a1; /* Change color on hover */
+}
+
+/* Custom Tailwind CSS class */
+.bg-custom-green {
+  background-color: #50da4c; /* Your custom green color */
+}
+
+/* Ensure the hero section fills the remaining space */
+section {
+  flex: 1; /* Allows hero section to take up remaining space */
+  display: flex; /* Use flexbox layout */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  color: #282727;
+  font-size: 1000px;
+}
+
+/* Ensure containers take the full width */
+.container {
+  max-width: 100%; /* Ensure full width */
+  padding: 0; /* No padding */
+  margin: 0; /* No margin */
+}
+
+/* Custom button class */
+.bg-blackish-grey {
+  background-color: #282727; /* Blackish-grey color */
+}
+
+/* Increase the border radius for more rounding */
+.rounded-full {
+  border-radius: 9999px; /* This gives a fully rounded button */
+}
+
+
+.block {
+  z-index: 1;
+  width: 100px; /* Width of each block */
+  height: 50px; /* Height of each block */
+  background-color: #50da4c; /* Block color */
+}
+
+.block:nth-child(1) {
+  z-index: 10;
+  position: absolute;
+  margin-top: 30px;
+  transform: translateY(-30px); /* Offset the first block */
+  transform: translateX(950px);
+}
+
+.block:nth-child(2) {
+  position: relative;
+  z-index: 10;
+  margin-left: 450px;
+  height: 80px;
+  transform: translateY(20px);
+}
+
+.block:nth-child(3) {
+  z-index: 10;
+  position: relative;
+  height: 50px;
+  margin-left: 650px; /* Offset the third block */
+  transform: translateX(400px);
+}
+
+.block:nth-child(4) {
+  position: relative;
+  z-index: 10;
+  margin-left: 1150px;
+  transform: translateY(-100px); /* Offset the fourth block */
+}
+
+
+.moving-block {
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%; /* Full width of the screen */
+  height: 150px; /* Height of the block */
+  background-color: #183717; /* Block color */
+}
