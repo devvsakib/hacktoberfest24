@@ -14,26 +14,26 @@ export default function App() {
               className="hack-icon"
             />
             <div class="w-5">
-              <h1 className="text-xl font-bold">HACKTOBER FEST</h1>
+              <h1 className="text-xl font-bold text-font-green">HACKTOBER FEST</h1>
             </div>
           </div>
           <nav className="flex space-x-7 me-12 items-center">
-            <a href="#" className="nav-link">
+            <a href="#" className="nav-link" class=" text-font-green hover:text-font-green" >
               PARTICIPATION
             </a>
-            <a href="#" className="nav-link">
+            <a href="#" className="nav-link" class=" text-font-green">
               EVENTS
             </a>
-            <a href="#" className="nav-link">
+            <a href="#" className="nav-link" class=" text-font-green">
               DONATE
             </a>
-            <a href="#" className="nav-link">
+            <a href="#" className="nav-link" class=" text-font-green">
               ABOUT
             </a>
-            <a href="#" className="nav-link">
+            <a href="#" className="nav-link" class=" text-font-green">
               JOIN DISCORD
             </a>
-            <button className="bg-blackish-grey text-white px-10 py-5 rounded-full">
+            <button className="hover:bg-font-green border-none duration-500 transition ease-in-out text-white px-10 py-5 rounded-full">
               {" "}
               {/* Change to rounded-full for more curve */}
               START HACKING
@@ -44,7 +44,7 @@ export default function App() {
 
       {/* Hero Section */}
       <section className="bg-custom-green mb-20 mx-20 flex items-center justify-center ">
-        <h1 className="text-5xl md:text-8xl text-center px-20">
+        <h1 className="text-5xl md:text-8xl text-center px-20 text-font-green">
           A month-long <strong>celebration</strong> of all things open-source
         </h1>
         {/* Blocky Design at the Bottom */}
