@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         'custom-green': '#50da4c', // Your custom green color
+        'font-green':'#183717'
       },
     },
   },
