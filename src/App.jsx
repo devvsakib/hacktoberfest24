@@ -1,4 +1,3 @@
-import React from "react";
 import "./App.css"; // Ensure to import the CSS file
 
 export default function App() {
@@ -9,11 +8,11 @@ export default function App() {
         <div className="container mx-auto flex justify-between items-center px-4">
           <div className="flex items-center ms-4">
             <img
-              src="src/assets/icon.png"
-              alt="Hacktoberfest logo"
+              src="/icon.png"
+              alt="Hacktoberfest Logo"
               className="hack-icon"
             />
-            <div class="w-5">
+            <div className="w-5">
               <h1 className="text-xl font-bold">HACKTOBER FEST</h1>
             </div>
           </div>
@@ -48,17 +47,15 @@ export default function App() {
           A month-long <strong>celebration</strong> of all things open-source
         </h1>
         {/* Blocky Design at the Bottom */}
-        
       </section>
       {/* Blocky Design at the Bottom */}
       <div className=" mb-15">
-          <div className="block"></div>
-          <div className="block"></div>
-          <div className="block"></div>
-          <div className="block"></div>
-          
-        </div>
-        <div className="moving-block"></div>
+        <div className="block"></div>
+        <div className="block"></div>
+        <div className="block"></div>
+        <div className="block"></div>
+      </div>
+      <div className="moving-block"></div>
     </div>
   );
 }
