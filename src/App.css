@@ -123,3 +123,14 @@ section {
   height: 150px; /* Height of the block */
   background-color: #183717; /* Block color */
 }
+
+::selection {
+  background-color: #a3e635; 
+  color: black; 
+}
+
+/* For Firefox */
+::-moz-selection {
+  background-color: #48bb78; 
+  color: black; 
+}
