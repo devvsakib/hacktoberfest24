@@ -1,0 +1,3 @@
+.featureImg {
+    @apply rounded-md border border-orange-400 w-full object-cover h-full
+}
