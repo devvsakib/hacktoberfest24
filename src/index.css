@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-color: #121212;
+  /* Background color */
+  --text-color: #ffffff;
+  /* Text color */
+  --primary-color: #024CAA;
+  /* Primary accent color */
+  --secondary-color: #08C2FF;
+  /* Secondary accent color */
+  --border-color: #333333;
+  --border-radius: 10px;
+  --gradColor: radial-gradient(circle, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+
+  /* Border color */
+}
+
+/* styles.css or global.css */
+.light {
+  --bg-color: #ffffff;
+  /* Light theme background */
+  --text-color: #121212;
+  /* Light theme text color */
+  --primary-color: #024CAA;
+  /* Light theme primary color */
+  --secondary-color: #03dac6;
+  /* Light theme secondary color */
+  --border-color: #dddddd;
+  /* Light theme border color */
+}
+
+@font-face {
+  font-family: 'chayanaFont';
+  src: url('/fonts/Li Chayana Teesta Unicode.ttf');
+}
+
+@font-face {
+  font-family: 'nakkhatraFont';
+  src: url('/fonts/Li Alinur Nakkhatra Unicode.ttf');
+}
+
+@font-face {
+  font-family: 'uthmani';
+  src: url('/fonts/Uthmanic.otf');
+}
+
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: nakkhatraFont;
+}
+
+.button {
+  background-color: var(--primary-color);
+  border: 1px solid var(--border-color);
+}
+
+.button-secondary {
+  background-color: var(--secondary-color);
+}
+
+.pricing-overlay {
+  /* background-image: linear-gradient(-54deg, #f5f5f550 0%, #7700ff83 20%, #FF524250 70%); */
+  /* background-image: linear-gradient(-54deg, #f5f5f550 0%, #FF524250 25%, #7700ff83 90%); */
+}
+
+.grad {
+  background: radial-gradient(circle at top, #5073b860, transparent 60%);
+}
+
+.gradText {
+  background: linear-gradient(-54deg, #7700ff 20%, #FF5242 70%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  width: fit-content;
+  margin: auto;
+  color: transparent;
+  font-weight: bold;
+}
+
+.gradientBorderBox:before,
+.gradientBorderBox:after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: radial-gradient(circle, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  border-radius: var(--border-radius);
+  background-size: 400%;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: circleShadow 5s linear infinite;
+}
+
+.gradientBorderBox:after {
+  filter: blur(10px);
+}
+
+@keyframes circleShadow {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  25% {
+    background-position: 50% 100%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  75% {
+    background-position: 50% 0%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
