@@ -1,20 +1,18 @@
+# Sunnah Bookshop 📚
 
+Welcome to the **Sunnah Bookshop** repository! 🎉 Our mission is to build a comprehensive online platform for purchasing Islamic books using **Tailwind CSS** and **Vite** to deliver a smooth, modern user experience.
 
-# Hacktoberfest 2024 🌟
+## 🚀 What is Sunnah Bookshop?
 
-Welcome to the **Hacktoberfest 2024** repository! 🎉 Our mission is to clone the official [Hacktoberfest website](https://hacktoberfest.com/) using **Tailwind CSS** and **Vite** to celebrate open-source contributions and engage developers from around the globe.
-
-## 🚀 What is Hacktoberfest?
-
-Hacktoberfest is a month-long celebration of open-source software, where developers are encouraged to contribute to projects, earn rewards, and connect with the community. By cloning the Hacktoberfest website, we aim to provide a platform that showcases the spirit of collaboration and learning.
+Sunnah Bookshop is an online store dedicated to providing a wide range of Islamic literature. By building this platform, we aim to create a user-friendly shopping experience where customers can easily browse, search, and purchase books, supporting the spread of authentic Islamic knowledge.
 
 ## 🛠️ Project Goals
 
-- **Clone the Hacktoberfest Website**: Recreate the functionality and design of the official Hacktoberfest site.
-- **Utilize Tailwind CSS**: Leverage Tailwind CSS for a responsive and modern design.
+- **Build an Online Bookstore**: Create a fully-functional website for purchasing Islamic books.
+- **Utilize Tailwind CSS**: Leverage Tailwind CSS to achieve a responsive, clean, and modern design.
 - **Use Vite for Fast Development**: Implement Vite as the build tool for a smooth and efficient development experience.
-- **Enhance with New Features**: Add unique features that improve user experience and engagement.
-- **Foster Community Contributions**: Encourage developers of all skill levels to participate and contribute.
+- **Seamless User Experience**: Ensure ease of navigation, book browsing, and purchasing features.
+- **Foster Community Contributions**: Encourage developers to contribute to this open-source project and enhance the bookstore.
 
 ## 🤝 How to Contribute
 
@@ -28,12 +26,12 @@ Hacktoberfest is a month-long celebration of open-source software, where develop
 
 ## 📅 Important Dates
 
-- **October 1st - October 31st**: Contribution period
-- **November 1st**: Last day to submit PRs for Hacktoberfest
+- **Contribution period**: Ongoing
+- **Release date**: To be announced
 
 ## 🎉 Rewards
 
-Contributors who submit four valid pull requests during Hacktoberfest can earn exclusive Hacktoberfest swag! 
+Contributors to this project will have the opportunity to be recognized for their efforts as part of an open-source community dedicated to Islamic education. Top contributors may also receive special acknowledgments from the Sunnah Bookshop team.
 
 ## 📜 Code of Conduct
 
